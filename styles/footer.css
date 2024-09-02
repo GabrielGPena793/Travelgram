@@ -1,0 +1,10 @@
+footer {
+  font: var(--text-md);
+  padding-block: 24px;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer div span:nth-child(1) {
+  margin-right: 24px;
+}
