@@ -21,6 +21,7 @@
 }
 
 body {
+  overflow-x: hidden;
   font: var(--text);
   color: var(--text-color-secondary);
   background-color: var(--surface-color);
