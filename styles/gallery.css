@@ -6,10 +6,19 @@
   gap: 24px;
   margin-top: 32px;
   border-radius: 16px 16px 0 0;
+
+  @media (width < 80em) {
+    justify-content: center;
+  }
 }
 
 #gallery img {
   height: 210px;
   width: 210px;
   object-fit: cover;
+
+  @media (width < 80em) {
+    height: 320px;
+    width: 320px;
+  }
 }

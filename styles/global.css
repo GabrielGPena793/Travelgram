@@ -40,3 +40,13 @@ a:hover {
   color: var(--brand-color);
   text-decoration: underline;
 }
+
+@media (width < 80em) {
+  body {
+    padding-inline: 1rem;
+  }
+
+  .desktop-only {
+    display: none;
+  }
+}

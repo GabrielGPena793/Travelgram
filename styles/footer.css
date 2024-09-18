@@ -3,6 +3,11 @@ footer {
   padding-block: 24px;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
+
+  @media (width < 80em) {
+    justify-content: center;
+  }
 }
 
 footer div span:nth-child(1) {
